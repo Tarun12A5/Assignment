@@ -1,0 +1,8 @@
+def even_odd(num):
+    if num%2==0:
+        return "even"
+    else:
+        return "odd"
+user_num=int(input("Enter a number: "))
+result=even_odd(user_num)
+print("The number you entered is",result)
